@@ -23,6 +23,15 @@
 		E37B6B8817AC59A1001E03E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37B6B6317AC59A1001E03E4 /* Foundation.framework */; };
 		E37B6B9017AC59A1001E03E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E37B6B8E17AC59A1001E03E4 /* InfoPlist.strings */; };
 		E37B6B9317AC59A1001E03E4 /* CouchPrefixedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E37B6B9217AC59A1001E03E4 /* CouchPrefixedTests.m */; };
+		E37B6B9D17AC5C1A001E03E4 /* TouchDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37B6B9C17AC5C1A001E03E4 /* TouchDB.framework */; };
+		E37B6B9E17AC5C1A001E03E4 /* TouchDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37B6B9C17AC5C1A001E03E4 /* TouchDB.framework */; };
+		E37B6BA017AC5C69001E03E4 /* CouchCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37B6B9F17AC5C69001E03E4 /* CouchCocoa.framework */; };
+		E37B6BA117AC5C69001E03E4 /* CouchCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37B6B9F17AC5C69001E03E4 /* CouchCocoa.framework */; };
+		E37B6BA317AC66D0001E03E4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E37B6BA217AC66D0001E03E4 /* libsqlite3.dylib */; };
+		E37B6BA517AC66DA001E03E4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37B6BA417AC66DA001E03E4 /* CFNetwork.framework */; };
+		E37B6BA717AC66E1001E03E4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37B6BA617AC66E1001E03E4 /* Security.framework */; };
+		E37B6BA917AC66ED001E03E4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37B6BA817AC66ED001E03E4 /* SystemConfiguration.framework */; };
+		E37B6BAB17AC66F3001E03E4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E37B6BAA17AC66F3001E03E4 /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +67,13 @@
 		E37B6B8F17AC59A1001E03E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E37B6B9117AC59A1001E03E4 /* CouchPrefixedTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CouchPrefixedTests.h; sourceTree = "<group>"; };
 		E37B6B9217AC59A1001E03E4 /* CouchPrefixedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CouchPrefixedTests.m; sourceTree = "<group>"; };
+		E37B6B9C17AC5C1A001E03E4 /* TouchDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TouchDB.framework; path = External/TouchDB.framework; sourceTree = "<group>"; };
+		E37B6B9F17AC5C69001E03E4 /* CouchCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CouchCocoa.framework; path = External/CouchCocoa.framework; sourceTree = "<group>"; };
+		E37B6BA217AC66D0001E03E4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		E37B6BA417AC66DA001E03E4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E37B6BA617AC66E1001E03E4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E37B6BA817AC66ED001E03E4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E37B6BAA17AC66F3001E03E4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +81,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E37B6BAB17AC66F3001E03E4 /* libz.dylib in Frameworks */,
+				E37B6BA917AC66ED001E03E4 /* SystemConfiguration.framework in Frameworks */,
+				E37B6BA717AC66E1001E03E4 /* Security.framework in Frameworks */,
+				E37B6BA517AC66DA001E03E4 /* CFNetwork.framework in Frameworks */,
+				E37B6BA317AC66D0001E03E4 /* libsqlite3.dylib in Frameworks */,
 				E37B6B6217AC59A1001E03E4 /* UIKit.framework in Frameworks */,
 				E37B6B6417AC59A1001E03E4 /* Foundation.framework in Frameworks */,
 				E37B6B6617AC59A1001E03E4 /* CoreGraphics.framework in Frameworks */,
+				E37B6B9D17AC5C1A001E03E4 /* TouchDB.framework in Frameworks */,
+				E37B6BA017AC5C69001E03E4 /* CouchCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +101,8 @@
 				E37B6B8617AC59A1001E03E4 /* SenTestingKit.framework in Frameworks */,
 				E37B6B8717AC59A1001E03E4 /* UIKit.framework in Frameworks */,
 				E37B6B8817AC59A1001E03E4 /* Foundation.framework in Frameworks */,
+				E37B6B9E17AC5C1A001E03E4 /* TouchDB.framework in Frameworks */,
+				E37B6BA117AC5C69001E03E4 /* CouchCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +131,13 @@
 		E37B6B6017AC59A1001E03E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E37B6BAA17AC66F3001E03E4 /* libz.dylib */,
+				E37B6BA817AC66ED001E03E4 /* SystemConfiguration.framework */,
+				E37B6BA617AC66E1001E03E4 /* Security.framework */,
+				E37B6BA417AC66DA001E03E4 /* CFNetwork.framework */,
+				E37B6BA217AC66D0001E03E4 /* libsqlite3.dylib */,
+				E37B6B9F17AC5C69001E03E4 /* CouchCocoa.framework */,
+				E37B6B9C17AC5C1A001E03E4 /* TouchDB.framework */,
 				E37B6B6117AC59A1001E03E4 /* UIKit.framework */,
 				E37B6B6317AC59A1001E03E4 /* Foundation.framework */,
 				E37B6B6517AC59A1001E03E4 /* CoreGraphics.framework */,
@@ -382,9 +414,17 @@
 		E37B6B9717AC59A1001E03E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/External\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CouchPrefixed/CouchPrefixed-Prefix.pch";
 				INFOPLIST_FILE = "CouchPrefixed/CouchPrefixed-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,9 +433,17 @@
 		E37B6B9817AC59A1001E03E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/External\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CouchPrefixed/CouchPrefixed-Prefix.pch";
 				INFOPLIST_FILE = "CouchPrefixed/CouchPrefixed-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -408,6 +456,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)/External\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CouchPrefixed/CouchPrefixed-Prefix.pch";
@@ -425,6 +474,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)/External\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CouchPrefixed/CouchPrefixed-Prefix.pch";
