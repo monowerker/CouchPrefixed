@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E34B2DB217B6B80800F8482A /* libTouchDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E34B2D9B17B6B77100F8482A /* libTouchDB.a */; };
+		E34B2DB317B6B80D00F8482A /* libCouchCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E34B2D7C17B6B76A00F8482A /* libCouchCocoa.a */; };
 		E37B6B6217AC59A1001E03E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37B6B6117AC59A1001E03E4 /* UIKit.framework */; };
 		E37B6B6417AC59A1001E03E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37B6B6317AC59A1001E03E4 /* Foundation.framework */; };
 		E37B6B6617AC59A1001E03E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37B6B6517AC59A1001E03E4 /* CoreGraphics.framework */; };
@@ -23,10 +25,6 @@
 		E37B6B8817AC59A1001E03E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37B6B6317AC59A1001E03E4 /* Foundation.framework */; };
 		E37B6B9017AC59A1001E03E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E37B6B8E17AC59A1001E03E4 /* InfoPlist.strings */; };
 		E37B6B9317AC59A1001E03E4 /* CouchPrefixedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E37B6B9217AC59A1001E03E4 /* CouchPrefixedTests.m */; };
-		E37B6B9D17AC5C1A001E03E4 /* TouchDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37B6B9C17AC5C1A001E03E4 /* TouchDB.framework */; };
-		E37B6B9E17AC5C1A001E03E4 /* TouchDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37B6B9C17AC5C1A001E03E4 /* TouchDB.framework */; };
-		E37B6BA017AC5C69001E03E4 /* CouchCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37B6B9F17AC5C69001E03E4 /* CouchCocoa.framework */; };
-		E37B6BA117AC5C69001E03E4 /* CouchCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37B6B9F17AC5C69001E03E4 /* CouchCocoa.framework */; };
 		E37B6BA317AC66D0001E03E4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E37B6BA217AC66D0001E03E4 /* libsqlite3.dylib */; };
 		E37B6BA517AC66DA001E03E4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37B6BA417AC66DA001E03E4 /* CFNetwork.framework */; };
 		E37B6BA717AC66E1001E03E4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37B6BA617AC66E1001E03E4 /* Security.framework */; };
@@ -35,6 +33,160 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		E34B2D7117B6B76A00F8482A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34B2D6617B6B76A00F8482A /* CouchCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27CDEBF113C67C9B00C979BB;
+			remoteInfo = "Mac Framework";
+		};
+		E34B2D7317B6B76A00F8482A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34B2D6617B6B76A00F8482A /* CouchCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27CDEC0313C67C9B00C979BB;
+			remoteInfo = "Mac Tests";
+		};
+		E34B2D7517B6B76A00F8482A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34B2D6617B6B76A00F8482A /* CouchCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27EF14771396D7BA0052913E;
+			remoteInfo = "Demo-Addresses";
+		};
+		E34B2D7717B6B76A00F8482A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34B2D6617B6B76A00F8482A /* CouchCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2784E1BC13CE5249009CC5C8;
+			remoteInfo = "Demo-Shopping";
+		};
+		E34B2D7917B6B76A00F8482A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34B2D6617B6B76A00F8482A /* CouchCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27EEA59813D602EA00D7ACA4;
+			remoteInfo = "iOS Framework";
+		};
+		E34B2D7B17B6B76A00F8482A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34B2D6617B6B76A00F8482A /* CouchCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2739BF2B13BCE53B004829CD;
+			remoteInfo = "iOS Library";
+		};
+		E34B2D7D17B6B76A00F8482A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34B2D6617B6B76A00F8482A /* CouchCocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2739BF3613BCE53C004829CD;
+			remoteInfo = "iOS Tests";
+		};
+		E34B2D9017B6B77100F8482A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34B2D7F17B6B77000F8482A /* TouchDB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 270B3DEA1489359000E0A926;
+			remoteInfo = TouchDB;
+		};
+		E34B2D9217B6B77100F8482A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34B2D7F17B6B77000F8482A /* TouchDB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 275315D514ACF0A10065964D;
+			remoteInfo = TouchDBListener;
+		};
+		E34B2D9417B6B77100F8482A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34B2D7F17B6B77000F8482A /* TouchDB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 270B3DFB1489359000E0A926;
+			remoteInfo = TouchDBTests;
+		};
+		E34B2D9617B6B77100F8482A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34B2D7F17B6B77000F8482A /* TouchDB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27C70694148864BA00F0F099;
+			remoteInfo = "TouchDB Demo";
+		};
+		E34B2D9817B6B77100F8482A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34B2D7F17B6B77000F8482A /* TouchDB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DD76F6C0486A84900D96B5E;
+			remoteInfo = Tests;
+		};
+		E34B2D9A17B6B77100F8482A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34B2D7F17B6B77000F8482A /* TouchDB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27B0B7A91492B83B00A817AD;
+			remoteInfo = "iOS Library";
+		};
+		E34B2D9C17B6B77100F8482A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34B2D7F17B6B77000F8482A /* TouchDB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27B0B7B61492B83B00A817AD;
+			remoteInfo = TouchDBiOSTests;
+		};
+		E34B2D9E17B6B77100F8482A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34B2D7F17B6B77000F8482A /* TouchDB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27B0B7E71492BB6B00A817AD;
+			remoteInfo = "iOS Framework";
+		};
+		E34B2DA017B6B77100F8482A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34B2D7F17B6B77000F8482A /* TouchDB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27B0B80B1492C16300A817AD;
+			remoteInfo = "iOS Demo";
+		};
+		E34B2DA217B6B77100F8482A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34B2D7F17B6B77000F8482A /* TouchDB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 27731F2A1495CFEF00815D67;
+			remoteInfo = "iOS Empty App";
+		};
+		E34B2DA417B6B77100F8482A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34B2D7F17B6B77000F8482A /* TouchDB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DA023B6414BCA94C008184BB;
+			remoteInfo = "Listener iOS Library";
+		};
+		E34B2DA617B6B77100F8482A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34B2D7F17B6B77000F8482A /* TouchDB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DA147C3614BCAC3B0052DA4D;
+			remoteInfo = "Listener iOS Framework";
+		};
+		E34B2DA817B6B77100F8482A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34B2D7F17B6B77000F8482A /* TouchDB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 270FE0C814C5008C005FF647;
+			remoteInfo = TouchServ;
+		};
+		E34B2DAE17B6B7FE00F8482A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34B2D6617B6B76A00F8482A /* CouchCocoa.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2739BF2A13BCE53B004829CD;
+			remoteInfo = "iOS Library";
+		};
+		E34B2DB017B6B80200F8482A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34B2D7F17B6B77000F8482A /* TouchDB.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 27B0B7A81492B83B00A817AD;
+			remoteInfo = "iOS Library";
+		};
 		E37B6B8917AC59A1001E03E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E37B6B5617AC59A1001E03E4 /* Project object */;
@@ -45,6 +197,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E34B2D6617B6B76A00F8482A /* CouchCocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CouchCocoa.xcodeproj; path = External/CouchCocoa/CouchCocoa.xcodeproj; sourceTree = "<group>"; };
+		E34B2D7F17B6B77000F8482A /* TouchDB.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TouchDB.xcodeproj; path = "External/TouchDB-iOS/TouchDB.xcodeproj"; sourceTree = "<group>"; };
 		E37B6B5E17AC59A1001E03E4 /* CouchPrefixed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CouchPrefixed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E37B6B6117AC59A1001E03E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E37B6B6317AC59A1001E03E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -67,8 +221,6 @@
 		E37B6B8F17AC59A1001E03E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E37B6B9117AC59A1001E03E4 /* CouchPrefixedTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CouchPrefixedTests.h; sourceTree = "<group>"; };
 		E37B6B9217AC59A1001E03E4 /* CouchPrefixedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CouchPrefixedTests.m; sourceTree = "<group>"; };
-		E37B6B9C17AC5C1A001E03E4 /* TouchDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TouchDB.framework; path = External/TouchDB.framework; sourceTree = "<group>"; };
-		E37B6B9F17AC5C69001E03E4 /* CouchCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CouchCocoa.framework; path = External/CouchCocoa.framework; sourceTree = "<group>"; };
 		E37B6BA217AC66D0001E03E4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		E37B6BA417AC66DA001E03E4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		E37B6BA617AC66E1001E03E4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -81,6 +233,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E34B2DB317B6B80D00F8482A /* libCouchCocoa.a in Frameworks */,
+				E34B2DB217B6B80800F8482A /* libTouchDB.a in Frameworks */,
 				E37B6BAB17AC66F3001E03E4 /* libz.dylib in Frameworks */,
 				E37B6BA917AC66ED001E03E4 /* SystemConfiguration.framework in Frameworks */,
 				E37B6BA717AC66E1001E03E4 /* Security.framework in Frameworks */,
@@ -89,8 +243,6 @@
 				E37B6B6217AC59A1001E03E4 /* UIKit.framework in Frameworks */,
 				E37B6B6417AC59A1001E03E4 /* Foundation.framework in Frameworks */,
 				E37B6B6617AC59A1001E03E4 /* CoreGraphics.framework in Frameworks */,
-				E37B6B9D17AC5C1A001E03E4 /* TouchDB.framework in Frameworks */,
-				E37B6BA017AC5C69001E03E4 /* CouchCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,19 +253,61 @@
 				E37B6B8617AC59A1001E03E4 /* SenTestingKit.framework in Frameworks */,
 				E37B6B8717AC59A1001E03E4 /* UIKit.framework in Frameworks */,
 				E37B6B8817AC59A1001E03E4 /* Foundation.framework in Frameworks */,
-				E37B6B9E17AC5C1A001E03E4 /* TouchDB.framework in Frameworks */,
-				E37B6BA117AC5C69001E03E4 /* CouchCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E34B2D6717B6B76A00F8482A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E34B2D7217B6B76A00F8482A /* CouchCocoa.framework */,
+				E34B2D7417B6B76A00F8482A /* Mac Tests.octest */,
+				E34B2D7617B6B76A00F8482A /* Addresses.app */,
+				E34B2D7817B6B76A00F8482A /* Shopping.app */,
+				E34B2D7A17B6B76A00F8482A /* CouchCocoa.framework */,
+				E34B2D7C17B6B76A00F8482A /* libCouchCocoa.a */,
+				E34B2D7E17B6B76A00F8482A /* iOS Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E34B2D8017B6B77000F8482A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E34B2D9117B6B77100F8482A /* TouchDB.framework */,
+				E34B2D9317B6B77100F8482A /* TouchDBListener.framework */,
+				E34B2D9517B6B77100F8482A /* TouchDBTests.octest */,
+				E34B2D9717B6B77100F8482A /* TouchDB Demo.app */,
+				E34B2D9917B6B77100F8482A /* TouchDB */,
+				E34B2D9B17B6B77100F8482A /* libTouchDB.a */,
+				E34B2D9D17B6B77100F8482A /* TouchDBiOSTests.octest */,
+				E34B2D9F17B6B77100F8482A /* TouchDB.framework */,
+				E34B2DA117B6B77100F8482A /* TouchDB Demo.app */,
+				E34B2DA317B6B77100F8482A /* TouchDB Empty App.app */,
+				E34B2DA517B6B77100F8482A /* libTouchDBListener.a */,
+				E34B2DA717B6B77100F8482A /* TouchDBListener.framework */,
+				E34B2DA917B6B77100F8482A /* TouchServ */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E35E52BF17B0F7E300E84BC5 /* Subprojects */ = {
+			isa = PBXGroup;
+			children = (
+				E34B2D6617B6B76A00F8482A /* CouchCocoa.xcodeproj */,
+				E34B2D7F17B6B77000F8482A /* TouchDB.xcodeproj */,
+			);
+			name = Subprojects;
+			sourceTree = "<group>";
+		};
 		E37B6B5517AC59A1001E03E4 = {
 			isa = PBXGroup;
 			children = (
 				E37B6B6717AC59A1001E03E4 /* CouchPrefixed */,
 				E37B6B8B17AC59A1001E03E4 /* CouchPrefixedTests */,
+				E35E52BF17B0F7E300E84BC5 /* Subprojects */,
 				E37B6B6017AC59A1001E03E4 /* Frameworks */,
 				E37B6B5F17AC59A1001E03E4 /* Products */,
 			);
@@ -136,8 +330,6 @@
 				E37B6BA617AC66E1001E03E4 /* Security.framework */,
 				E37B6BA417AC66DA001E03E4 /* CFNetwork.framework */,
 				E37B6BA217AC66D0001E03E4 /* libsqlite3.dylib */,
-				E37B6B9F17AC5C69001E03E4 /* CouchCocoa.framework */,
-				E37B6B9C17AC5C1A001E03E4 /* TouchDB.framework */,
 				E37B6B6117AC59A1001E03E4 /* UIKit.framework */,
 				E37B6B6317AC59A1001E03E4 /* Foundation.framework */,
 				E37B6B6517AC59A1001E03E4 /* CoreGraphics.framework */,
@@ -206,6 +398,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				E34B2DB117B6B80200F8482A /* PBXTargetDependency */,
+				E34B2DAF17B6B7FE00F8482A /* PBXTargetDependency */,
 			);
 			name = CouchPrefixed;
 			productName = CouchPrefixed;
@@ -251,6 +445,16 @@
 			mainGroup = E37B6B5517AC59A1001E03E4;
 			productRefGroup = E37B6B5F17AC59A1001E03E4 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E34B2D6717B6B76A00F8482A /* Products */;
+					ProjectRef = E34B2D6617B6B76A00F8482A /* CouchCocoa.xcodeproj */;
+				},
+				{
+					ProductGroup = E34B2D8017B6B77000F8482A /* Products */;
+					ProjectRef = E34B2D7F17B6B77000F8482A /* TouchDB.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				E37B6B5D17AC59A1001E03E4 /* CouchPrefixed */,
@@ -258,6 +462,149 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E34B2D7217B6B76A00F8482A /* CouchCocoa.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CouchCocoa.framework;
+			remoteRef = E34B2D7117B6B76A00F8482A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E34B2D7417B6B76A00F8482A /* Mac Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Mac Tests.octest";
+			remoteRef = E34B2D7317B6B76A00F8482A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E34B2D7617B6B76A00F8482A /* Addresses.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Addresses.app;
+			remoteRef = E34B2D7517B6B76A00F8482A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E34B2D7817B6B76A00F8482A /* Shopping.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Shopping.app;
+			remoteRef = E34B2D7717B6B76A00F8482A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E34B2D7A17B6B76A00F8482A /* CouchCocoa.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CouchCocoa.framework;
+			remoteRef = E34B2D7917B6B76A00F8482A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E34B2D7C17B6B76A00F8482A /* libCouchCocoa.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCouchCocoa.a;
+			remoteRef = E34B2D7B17B6B76A00F8482A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E34B2D7E17B6B76A00F8482A /* iOS Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "iOS Tests.octest";
+			remoteRef = E34B2D7D17B6B76A00F8482A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E34B2D9117B6B77100F8482A /* TouchDB.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TouchDB.framework;
+			remoteRef = E34B2D9017B6B77100F8482A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E34B2D9317B6B77100F8482A /* TouchDBListener.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TouchDBListener.framework;
+			remoteRef = E34B2D9217B6B77100F8482A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E34B2D9517B6B77100F8482A /* TouchDBTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TouchDBTests.octest;
+			remoteRef = E34B2D9417B6B77100F8482A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E34B2D9717B6B77100F8482A /* TouchDB Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "TouchDB Demo.app";
+			remoteRef = E34B2D9617B6B77100F8482A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E34B2D9917B6B77100F8482A /* TouchDB */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = TouchDB;
+			remoteRef = E34B2D9817B6B77100F8482A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E34B2D9B17B6B77100F8482A /* libTouchDB.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTouchDB.a;
+			remoteRef = E34B2D9A17B6B77100F8482A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E34B2D9D17B6B77100F8482A /* TouchDBiOSTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TouchDBiOSTests.octest;
+			remoteRef = E34B2D9C17B6B77100F8482A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E34B2D9F17B6B77100F8482A /* TouchDB.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TouchDB.framework;
+			remoteRef = E34B2D9E17B6B77100F8482A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E34B2DA117B6B77100F8482A /* TouchDB Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "TouchDB Demo.app";
+			remoteRef = E34B2DA017B6B77100F8482A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E34B2DA317B6B77100F8482A /* TouchDB Empty App.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "TouchDB Empty App.app";
+			remoteRef = E34B2DA217B6B77100F8482A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E34B2DA517B6B77100F8482A /* libTouchDBListener.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTouchDBListener.a;
+			remoteRef = E34B2DA417B6B77100F8482A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E34B2DA717B6B77100F8482A /* TouchDBListener.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TouchDBListener.framework;
+			remoteRef = E34B2DA617B6B77100F8482A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E34B2DA917B6B77100F8482A /* TouchServ */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = TouchServ;
+			remoteRef = E34B2DA817B6B77100F8482A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E37B6B5C17AC59A1001E03E4 /* Resources */ = {
@@ -320,6 +667,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		E34B2DAF17B6B7FE00F8482A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "iOS Library";
+			targetProxy = E34B2DAE17B6B7FE00F8482A /* PBXContainerItemProxy */;
+		};
+		E34B2DB117B6B80200F8482A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "iOS Library";
+			targetProxy = E34B2DB017B6B80200F8482A /* PBXContainerItemProxy */;
+		};
 		E37B6B8A17AC59A1001E03E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E37B6B5D17AC59A1001E03E4 /* CouchPrefixed */;
@@ -358,7 +715,7 @@
 		E37B6B9417AC59A1001E03E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -389,7 +746,7 @@
 		E37B6B9517AC59A1001E03E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -420,12 +777,14 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CouchPrefixed/CouchPrefixed-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/External\"/**";
 				INFOPLIST_FILE = "CouchPrefixed/CouchPrefixed-Info.plist";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/External\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -439,12 +798,14 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CouchPrefixed/CouchPrefixed-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/External\"/**";
 				INFOPLIST_FILE = "CouchPrefixed/CouchPrefixed-Info.plist";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/External\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -504,6 +865,7 @@
 				E37B6B9817AC59A1001E03E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E37B6B9917AC59A1001E03E4 /* Build configuration list for PBXNativeTarget "CouchPrefixedTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +874,7 @@
 				E37B6B9B17AC59A1001E03E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
