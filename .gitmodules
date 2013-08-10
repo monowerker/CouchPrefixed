@@ -1,6 +1,3 @@
 [submodule "External/TouchDB-iOS"]
 	path = External/TouchDB-iOS
 	url = https://github.com/couchbaselabs/TouchDB-iOS.git
-[submodule "External/CouchCocoa"]
-	path = External/CouchCocoa
-	url = https://github.com/couchbaselabs/CouchCocoa.git
